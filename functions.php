@@ -98,8 +98,8 @@ function cleanblog_scripts() {
 	wp_enqueue_style( 'cleanblog-bootstrap', 'https://cdn.jsdelivr.net/gh/shellj/clean-blog-theme/css/bootstrap.min.css' );
 	wp_enqueue_style( 'cleanblog-theme', 'https://cdn.jsdelivr.net/gh/shellj/clean-blog-theme/css/clean-blog.min.css' );
 	wp_enqueue_style( 'pillar-press-fontawesome', 'https://cdn.jsdelivr.net/gh/shellj/clean-blog-theme/css/fontawesome-all.min.css' );
-	wp_enqueue_style( 'cleanblog-lora', '//fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap&subset=chinese-simplified' );
-	wp_enqueue_style( 'cleanblog-opensans', '//fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap&subset=chinese-simplified' );
+	//wp_enqueue_style( 'cleanblog-lora', '//fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap&subset=chinese-simplified' );
+	//wp_enqueue_style( 'cleanblog-opensans', '//fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap&subset=chinese-simplified' );
 
 	wp_enqueue_script( 'cleanblog-navigation', 'https://cdn.jsdelivr.net/gh/shellj/clean-blog-theme/js/navigation.js', array(), '20180318', true );
 	wp_enqueue_script( 'cleanblog-skip-link-focus-fix', 'https://cdn.jsdelivr.net/gh/shellj/clean-blog-theme/js/skip-link-focus-fix.js', array(), '20180318', true );
